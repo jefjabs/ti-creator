@@ -1,6 +1,6 @@
 {
   "name": "ti-creator",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Titanium UI Creator",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,15 @@
   },
   "author": "Jeffrey Jabines",
   "license": "MIT",
+  "bin": {
+    "ti-creator": "index.js"
+  },
+  "preferGlobal": "true",
   "bugs": {
     "url": "https://github.com/jefjabs/ti-creator/issues"
   },
-  "homepage": "https://github.com/jefjabs/ti-creator#readme"
+  "homepage": "https://github.com/jefjabs/ti-creator#readme",
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
 }
