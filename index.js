@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 
 switch( process.argv[2] ){
-	case "init":
-		var ncp = require('ncp').ncp;
-		ncp.limit = 16;
+	case "status":
+		console.log("Status here");
 		break;
+	case "init":
+		console.log("Initialize Here");
+		break;
+	case "serve":
 	default:
-		var as = require('./app.js');
-		as.run();
+		require('./app.js').serve();
 		break;
 }

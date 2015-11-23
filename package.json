@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/jefjabs/ti-creator#readme",
   "dependencies": {
-    "ncp": "^2.0.0"
+    "express": "^4.13.3",
+    "mustache": "^2.2.0",
+    "opener": "^1.4.1"
   }
 }

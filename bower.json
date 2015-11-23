@@ -1,0 +1,19 @@
+{
+  "name": "ti-creator",
+  "description": "Titanium UI Creator",
+  "main": "index.js",
+  "authors": [
+    "Jeffrey Jabines"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jefjabs/ti-creator",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
