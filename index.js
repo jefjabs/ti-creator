@@ -9,6 +9,6 @@ switch( process.argv[2] ){
 		break;
 	case "serve":
 	default:
-		require('./app.js').serve();
+		require('./app/app.js').serve();
 		break;
 }
