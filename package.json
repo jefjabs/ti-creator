@@ -1,6 +1,6 @@
 {
   "name": "ti-creator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Titanium UI Creator",
   "main": "index.js",
   "scripts": {
